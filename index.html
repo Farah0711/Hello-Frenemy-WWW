@@ -3,8 +3,28 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width" />
-        <title>replit</title>
+        <title>Hello Frenemy</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
+        <style>
+    #computer-response.enemy {
+      color: red;
+      font-weight: bold;
+    }
+    #computer-response.friend {
+      color: green;
+      font-weight: bold;
+    }
+  </style>
     </head>
-    <body></body>
+    <body>
+     <h2 id="computer-response"></h2>
+
+  <form id="name-form" action="/">
+    <label for="user-input">What is your name?</label>
+    <input type="text" id="user-input" />
+    <input type="submit" value="Submit" />
+  </form>
+
+  <script src="script.js"></script>
+    </body>
 </html>
